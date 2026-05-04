@@ -1,0 +1,44 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "PmzVbpbIseo7ongVVF8A0"
+uri = "file://artifacts/hot-beans/src/assets/team-1.png"
+type = "image"
+title = "Benjamin Shah headshot"
+
+[[generated]]
+id = "UhcqbbeTnGYRcTNQBNgXc"
+uri = "file://artifacts/hot-beans/src/assets/team-2.png"
+type = "image"
+title = "Juliana Silva headshot"
+
+[[generated]]
+id = "j37HZMR6v3zWr1BjS4o5l"
+uri = "file://artifacts/hot-beans/src/assets/team-3.png"
+type = "image"
+title = "Claudia Alves headshot"
+
+[[generated]]
+id = "tHiLZlH0d7Eq_bLQNs5xW"
+uri = "file://artifacts/hot-beans/src/assets/team-4.png"
+type = "image"
+title = "Avery Davis headshot"
+
+[[generated]]
+id = "JCj0TobEsFk3kBY8rmPrN"
+uri = "file://artifacts/hot-beans/src/assets/course-1.png"
+type = "image"
+title = "Students at computers"
+
+[[generated]]
+id = "7WFKHb7HoMG4WjvUkkeNR"
+uri = "file://artifacts/hot-beans/src/assets/course-2.png"
+type = "image"
+title = "Students at whiteboard"
+
+[[generated]]
+id = "13NOdJi6ObvU9gLObS6Hj"
+uri = "file://artifacts/hot-beans/src/assets/about-team.png"
+type = "image"
+title = "Company team working"

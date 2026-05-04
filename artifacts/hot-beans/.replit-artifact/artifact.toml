@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Hot Beans Cafe"
+version = "1.0.0"
+id = "artifacts/hot-beans"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22456
+
+[services.development]
+run = "pnpm --filter @workspace/hot-beans run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/hot-beans", "run", "build" ]
+publicDir = "artifacts/hot-beans/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22456"
+BASE_PATH = "/"
